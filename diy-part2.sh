@@ -1,5 +1,5 @@
 #!/bin/bash
-#============================================================
+#=======================================_=====================
 # https://github.com/P3TERX/Actions-OpenWrt
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
@@ -48,9 +48,9 @@ sed -i "s/OpenWrt/$wifi_name/g" package/kernel/mac80211/files/lib/wifi/mac80211.
 #echo '添加Passwall'
 
 #echo 'CONFIG_PACKAGE_luci-app-wol=n' >> .config
-echo 'CONFIG_PACKAGE_luci-app-unblockmusic=n' >> .config
-echo 'CONFIG_PACKAGE_luci-app-ssr-plus=n' >> .config
-echo 'CONFIG_PACKAGE_CONFIG_PACKAGE_samba=n' >> .config
+#echo 'CONFIG_PACKAGE_luci-app-unblockmusic=n' >> .config
+#echo 'CONFIG_PACKAGE_luci-app-ssr-plus=n' >> .config
+#echo 'CONFIG_PACKAGE_CONFIG_PACKAGE_samba=n' >> .config
 
 #echo 'CONFIG_PACKAGE_luci-app-passwall=y' >> .config
 
