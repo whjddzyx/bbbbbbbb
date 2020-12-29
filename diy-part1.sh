@@ -22,3 +22,4 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 
 sed -i '$a src-git mypackages https://github.com/siropboy/mypackages' feeds.conf.default
 sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
+sed -i '$a src-git lean https://github.com/coolsnowwolf/lede/tree/master/package/lean' feeds.conf.default
