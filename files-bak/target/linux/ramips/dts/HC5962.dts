@@ -53,13 +53,13 @@
 		wps {
 			label = "wps";
 			gpios = <&gpio0 8 GPIO_ACTIVE_HIGH>;
-			linux,code = <KEY_RESTART>;
+			linux,code = <KEY_WPS>;
 		};
 		
 		fn1 {
 			label = "fn1";
 			gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
-			linux,code = <KEY_RESTART>;
+			linux,code = <KEY_FN1>;
 		};
 	};
 };
