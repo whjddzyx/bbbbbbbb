@@ -22,10 +22,10 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/whjddzyx/openwrt
-  REPO_BRANCH: openwrt-19.07
+  REPO_URL: https://github.com/whjddzyx/openwrt-1
+  REPO_BRANCH: 19.07
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 8820s-life.config
+  CONFIG_FILE: 8820s-li.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: true
