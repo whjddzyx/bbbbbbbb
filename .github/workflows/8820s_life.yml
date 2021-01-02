@@ -25,7 +25,7 @@ env:
   REPO_URL: https://github.com/whjddzyx/openwrt
   REPO_BRANCH: openwrt-19.07
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 8820s_life.config
+  CONFIG_FILE: 8820s-life.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: true
